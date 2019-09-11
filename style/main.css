@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3em;
+  color: #999999;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-weight: 300;
+  margin-top: 0.5em;
+}
+
+#hero-image {
+  background-image: url("../img/banner-bg.png");
+ background-color: #cccccc;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #444444;
+}
+
+#body-wrapper {
+  width: 80%;
+  max-width: 960px;
+  margin: auto;
+}
+
+header {
+  font-weight: 700;
+  margin-top: 2em;
+}
+
+nav {
+  color: #999999;
+}
+
+main {
+  margin-top: 3em;
+}
+
+footer {
+  margin-top: 1em;
+  padding: 1em;
+  font-size: 0.75em;
+  position: fixed;
+  bottom: 0;
+}
+
+ul {
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  font-weight: 500;
+  font-size: 1.5em;
+  margin-right: 1em;
+}

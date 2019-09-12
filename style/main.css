@@ -17,6 +17,12 @@ h3 {
 p {
   margin-top: 0.5em;
 }
+.img-base {
+  max-width: 80%;
+}
+.margin-base {
+  padding: 5% 8% 5% 8%;
+}
 #hero-image {
   background-image: linear-gradient(rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 0.7)), url("../img/banner-bg.png");
   background-position: center;
@@ -54,20 +60,15 @@ body {
 }
 .img-burger {
   width: 200px;
-  max-width: 80%;
   margin-left: 20%;
   margin-right: 5%;
+  max-width: 80%;
 }
 .img-headshot {
   width: 150px;
-  max-width: 80%;
   margin-left: 5%;
   margin-right: 20%;
-}
-#body-wrapper {
-  width: 80%;
-  max-width: 960px;
-  margin: auto;
+  max-width: 80%;
 }
 nav {
   background-color: #f8df20;
@@ -87,13 +88,13 @@ footer {
   background-color: #000000;
   border-top: solid 0.5rem #f8df20;
   text-align: center;
-  padding: 2rem;
+  padding: 5% 8% 5% 8%;
 }
 ul {
   text-decoration: none;
-  padding: 3em 3em 2rem 3em;
+  padding: 5% 8% 5% 8%;
 }
 li {
   display: inline;
-  margin-right: 3em;
+  margin-right: 3%;
 }

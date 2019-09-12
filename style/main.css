@@ -25,7 +25,7 @@ p {
 }
 
 #hero-image {
-  background-image: linear-gradient(rgba(70,70,70,0.7), rgba(70,70,70,0.7)), url("../img/banner-bg.png");
+  background-image: linear-gradient(rgba(50,50,50,0.7), rgba(50,50,50,0.7)), url("../img/banner-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,6 +35,20 @@ p {
 .btn-bob {
   background-color: #f8df20;
   color: #292505;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+.logo {
+  width: 400px; 
+  max-width: 80%;
+}
+
+.red-hl {
+  text-transform: uppercase;
+  color: #ef2731;
+
 }
 
 body {
@@ -50,17 +64,18 @@ body {
   margin: auto;
 }
 
-header {
-  font-weight: 700;
-  margin-top: 2em;
-}
-
 nav {
-  color: #999999;
+  background-color: #f8df20;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 main {
   margin-top: 3em;
+}
+
+section {
+padding: 2rem 4rem 2rem 4rem;
 }
 
 footer {
@@ -73,11 +88,10 @@ footer {
 
 ul {
   text-decoration: none;
+  padding: 3em 3em 2rem 3em;
 }
 
 li {
   display: inline;
-  font-weight: 500;
-  font-size: 1.5em;
-  margin-right: 1em;
+  margin-right: 3em;
 }

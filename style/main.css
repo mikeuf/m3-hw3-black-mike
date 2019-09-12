@@ -45,6 +45,12 @@ p {
   max-width: 80%;
 }
 
+
+.footer-logo {
+  width: 300px; 
+  max-width: 60%;
+}
+
 .red-hl {
   text-transform: uppercase;
   color: #ef2731;
@@ -98,15 +104,14 @@ main {
 }
 
 section {
-padding: 3rem 5rem 3rem 5rem;
+padding: 5% 8% 5% 8%;
 }
 
 footer {
-  margin-top: 1em;
-  padding: 1em;
-  font-size: 0.75em;
-  position: fixed;
-  bottom: 0;
+  background-color: #000000;
+  border-top: solid 0.5rem #f8df20;
+  text-align: center;
+  padding: 2rem;
 }
 
 ul {

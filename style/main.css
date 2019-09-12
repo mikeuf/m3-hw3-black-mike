@@ -9,6 +9,7 @@
 h1 {
   font-size: 3em;
   color: #999999;
+
 }
 
 h2 {
@@ -24,17 +25,16 @@ p {
 }
 
 #hero-image {
-  background-image: url("../img/banner-bg.png");
-  height: 50%;
+  background-image: linear-gradient(rgba(70,70,70,0.7), rgba(70,70,70,0.7)), url("../img/banner-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  text-align: center;
 }
 
 .btn-bob {
-background-color: #f8df20;
-color: #292505;
+  background-color: #f8df20;
+  color: #292505;
 }
 
 body {
